@@ -89,3 +89,52 @@ button{
     align-items: flex-start;
 }
 
+
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #logo-principal {
+        width: 80px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .container {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .card {
+        width: 90vw;
+        height: auto;
+        padding: 20px;
+    }
+
+    input {
+        width: 80vw;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 50vw;
+        padding: 10px;
+    }
+
+    .arroz {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #lista {
+        flex-direction: column;
+        width: 90vw;
+        word-wrap: break-word;
+    }
+}
